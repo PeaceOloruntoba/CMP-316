@@ -13,9 +13,5 @@ explixit is better than implicit
 simple is better than complexcomplex is better than complicated
 '''
 
-for char in zen:
-    if char not in 'aeiou':
-        print(char, end='')
-
-NQKCENJL
+print(zen)
 
