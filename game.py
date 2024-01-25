@@ -10,7 +10,7 @@ Good luck playing
 print(intro)
 # Game Function Definition
 def guess_number():
-    # Generate a random number between 10 and 30
+    # Generate a random number between 1 and 50
     secret_number = random.randint(1, 50)
 
     # Allow the user three attempts to guess the number
