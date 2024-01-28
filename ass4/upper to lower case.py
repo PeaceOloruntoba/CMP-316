@@ -1,4 +1,4 @@
-text = "This is a String to Convert"
+text = input("Enter a given string: ")
 uppercase_text = text.upper()
 lowercase_text = text.lower()
 print(f"Original text: {text}")
