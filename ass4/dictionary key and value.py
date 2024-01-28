@@ -1,17 +1,16 @@
 def create_and_check_dict():
-  """Creates a dictionary and checks for key existence."""
-
-  # Create a dictionary
-  my_dict = {"name": "Alice", "age": 30, "city": "New York"}
-
-  # Get a key to check from the user
+  my_dict = {}
+  print("Please note that the program is case sensitive!!!")
+  num_items = int(input("Enter the number of items in the dictionary: "))
+  for i in range(num_items):
+    key = input(f"Enter key {i+1}: ")
+    value = input(f"Enter value for '{key}': ")
+    my_dict[key] = value
   key_to_check = input("Enter a key to check: ")
-
-  # Check if the key exists in the dictionary
   if key_to_check in my_dict:
     print(f"The key '{key_to_check}' exists in the dictionary.")
     print(f"Its value is: {my_dict[key_to_check]}")
   else:
     print(f"The key '{key_to_check}' does not exist in the dictionary.")
 
-create_and_check_dict()  # Call the function
+create_and_check_dict()
