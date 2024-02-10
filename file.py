@@ -28,3 +28,15 @@ with open("student_records.csv", mode='w', newline='') as file:
     writer.writerows(data)
 
 print(f"Data written to student_records.csv")
+
+
+
+add = lambda x, y: x+y
+subtract = lambda x, y: x-y
+multiply = lambda x, y: x*y
+divide = lambda x, y: x/y
+
+print(add(3,4))
+print(subtract(8,1))
+print(multiply(3,4))
+print(divide(3,4))
